@@ -1,0 +1,21 @@
+import salarydemo.*;
+
+public class StudentEmployee extends HourlyEmployee {
+
+	private double InternshipCredit;
+
+	/**
+	 * 
+	 * @param internshipCredit
+	 */
+	public StudentEmployee(double internshipCredit) {
+		// TODO - implement StudentEmployee.StudentEmployee
+		throw new UnsupportedOperationException();
+	}
+
+	public void operation() {
+		// TODO - implement StudentEmployee.operation
+		throw new UnsupportedOperationException();
+	}
+
+}

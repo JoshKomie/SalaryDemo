@@ -15,10 +15,14 @@ public class StudentEmployee {
       @param name the name of this employee
       @param wage the hourly wage 
    */
-   public StudentEmployee(String name, double wage)
+    
+   private double internshipCredit;
+   
+   public StudentEmployee(String name, double wage, double internshipCredit)
    {
       setName(name);
       hourlyWage = wage;
+      this.internshipCredit = internshipCredit;
    }
  
    public double weeklyPay(int hoursWorked)
@@ -31,4 +35,5 @@ public class StudentEmployee {
       }
       return pay;
    }
+
 }
